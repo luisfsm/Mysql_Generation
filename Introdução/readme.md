@@ -1,7 +1,7 @@
 <h1> Exercicios Propostos </h1>
 
 
-<b> Atividade 1 </b>
+<b> Atividade 1 </b> <a href="https://github.com/luisfsm/Mysql_Generation/blob/master/Introdução/exercicio_01.sql"> Resolução <a/>
 <p> Crie um banco de dados para um serviço de RH de uma empresa, onde o sistema
 trabalhará com as informações dos funcionaries desta empresa.</p>
 <p>Crie uma tabela de funcionaries e utilizando a habilidade de abstração e determine 5
