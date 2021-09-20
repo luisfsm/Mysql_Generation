@@ -1,0 +1,64 @@
+/*
+Crie um banco de dados para um e commerce, onde o sistema trabalhará com as
+informações dos produtos deste ecommerce.
+Crie uma tabela produtos e utilizando a habilidade de abstração e determine 5 atributos
+relevantes dos produtos para se trabalhar com o serviço deste ecommerce.
+Popule esta tabela com até 8 dados;
+Faça um select que retorne os produtos com o valor maior do que 500.
+Faça um select que retorne os produtos com o valor menor do que 500.
+Ao término atualize um dado desta tabela através de uma query de atualização.
+
+SET SQL_SAFE_UPDATES=0;
+
+*/
+
+
+
+CREATE DATABASE DB_ECOMMERCE;
+
+USE DB_ECOMMERCE;
+
+
+CREATE TABLE TB_PRODUTO
+(
+ID 				BIGINT PRIMARY KEY AUTO_INCREMENT,
+NOME_PRODUTO	VARCHAR(50),
+DATA_CADASTRO	DATETIME DEFAULT NOW(),
+PRECO			DECIMAL(12,2) NOT NULL,
+QTDE_ESTOQUE	INT DEFAULT 0,
+STATUS_PRODUTOS			BIT DEFAULT 1
+);
+
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('Sapato',199.99,8);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('Camiseta',99.99,2);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('PS4',2999.99,3);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('XBOX-ONE',2299.99,1);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('PS5',5999.99,0);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('Mouse-gamer',139.99,2);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('Teclado',99.00,10);
+INSERT INTO TB_PRODUTO(NOME_PRODUTO,PRECO,QTDE_ESTOQUE) 
+VALUES('Monitor Odyssey',1999.99,1);
+
+SELECT NOME_PRODUTO,
+	   concat('R$ ', FORMAT(PRECO,'pt-br')) as PRECO 
+FROM TB_PRODUTO WHERE PRECO > 500;
+
+SELECT NOME_PRODUTO,
+	   concat('R$ ', FORMAT(PRECO,'pt-br')) as PRECO 
+FROM TB_PRODUTO WHERE PRECO < 500;
+
+
+SELECT * FROM TB_PRODUTO
+WHERE QTDE_ESTOQUE=0;
+
+
+
+UPDATE TB_PRODUTO SET STATUS_PRODUTOS= 0
+WHERE QTDE_ESTOQUE = 0;
