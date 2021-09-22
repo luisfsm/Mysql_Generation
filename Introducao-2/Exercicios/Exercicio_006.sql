@@ -27,7 +27,7 @@ VALUES('JAVA BASICO A AVANCADO',2,1200),('ASP.NET 5 AVANCADO',2,1200),('PHP PRA 
 
 SELECT * FROM tb_produtos WHERE PRECO > 50;
 SELECT * FROM tb_produtos WHERE PRECO BETWEEN 3 AND 60;
-select * from tb_produtos WHERE NOME LIKE '%C%'; 
+select * from tb_produtos WHERE NOME LIKE '%j%'; 
 
 SELECT *
 FROM TB_PRODUTOS P
