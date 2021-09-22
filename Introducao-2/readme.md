@@ -1,7 +1,7 @@
 ## Atividade 1
 <br>
-<https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_001.sql/>
-<https://exemplo.com/>
+[Resposta] (https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_001.sql)
+<br>
 
 Crie um banco de dados para um serviço de um game Online , o nome do banco deverá ter
 o seguinte nome db_generation_game_online, onde, o sistema trabalhará com as
@@ -37,6 +37,8 @@ os personagens que são arqueiros).
 
 ## Atividade 2
 
+[Resposta] (https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_002.sql)
+<br>
 Crie um banco de dados para um serviço de pizzaria de uma empresa, o nome do banco
 deverá ter o seguinte nome db_pizzaria_legal, onde o sistema trabalhará com as
 informações dos produtos desta empresa.
@@ -69,7 +71,8 @@ os produtos que são pizza doce).
 
 
 ## Atividade 3
-
+[Resposta] (https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_003.sql)
+<br>
 Crie um banco de dados para um serviço de farmácia de uma empresa, o nome do banco
 deverá ter o seguinte nome db_farmacia_do_bem, onde o sistema trabalhará com as
 informações dos produtos desta empresa.
@@ -102,6 +105,8 @@ os produtos que são cosméticos).
 
 
 ## Atividade 4
+[Resposta] (https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_004.sql)
+<br>
 
 Crie um banco de dados para um serviço de um açougue ou uma quitanda, o nome do
 banco deverá ter o seguinte nome db_cidade_das_carnes ou db_cidade_das_frutas, onde o
@@ -135,6 +140,10 @@ os produtos que são aves ou legumes).
 
 
 ## Atividade 5
+[Resposta] (https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_005.sql)
+<br>
+
+
 
 Crie um banco de dados para um serviço de uma loja de produtos de construção, o nome
 do banco deverá ter o seguinte nome db_construindo_a_nossa_vida, onde o sistema
@@ -168,6 +177,8 @@ os produtos que são da categoria hidráulica).
 
 
 ## Atividade 6
+[Resposta] (https://github.com/luisfsm/Mysql_Generation/blob/master/Introducao-2/Exercicios/Exercicio_006.sql)
+<br>
 
 Crie um banco de dados para um serviço de um site de cursos onlines, o nome do banco
 deverá ter o seguinte nome db_cursoDaMinhaVida, onde o sistema trabalhará com as
