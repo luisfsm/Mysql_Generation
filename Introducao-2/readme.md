@@ -1,4 +1,4 @@
-# Atividade 1
+## Atividade 1
 
 Crie um banco de dados para um serviço de um game Online , o nome do banco deverá ter
 o seguinte nome db_generation_game_online, onde, o sistema trabalhará com as
@@ -32,7 +32,7 @@ os personagens que são arqueiros).
 
 
 
-#Atividade 2
+## Atividade 2
 
 Crie um banco de dados para um serviço de pizzaria de uma empresa, o nome do banco
 deverá ter o seguinte nome db_pizzaria_legal, onde o sistema trabalhará com as
@@ -65,7 +65,7 @@ Faça um select onde traga todos os Produtos de uma categoria específica (exemp
 os produtos que são pizza doce).
 
 
-#Atividade 3
+## Atividade 3
 
 Crie um banco de dados para um serviço de farmácia de uma empresa, o nome do banco
 deverá ter o seguinte nome db_farmacia_do_bem, onde o sistema trabalhará com as
@@ -98,7 +98,7 @@ Faça um select onde traga todos os Produtos de uma categoria específica (exemp
 os produtos que são cosméticos).
 
 
-#Atividade 4
+## Atividade 4
 
 Crie um banco de dados para um serviço de um açougue ou uma quitanda, o nome do
 banco deverá ter o seguinte nome db_cidade_das_carnes ou db_cidade_das_frutas, onde o
@@ -131,7 +131,7 @@ Faça um select onde traga todos os Produtos de uma categoria específica (exemp
 os produtos que são aves ou legumes).
 
 
-#Atividade 5
+## Atividade 5
 
 Crie um banco de dados para um serviço de uma loja de produtos de construção, o nome
 do banco deverá ter o seguinte nome db_construindo_a_nossa_vida, onde o sistema
@@ -164,7 +164,7 @@ Faça um select onde traga todos os Produtos de uma categoria específica (exemp
 os produtos que são da categoria hidráulica).
 
 
-#Atividade 6
+## Atividade 6
 
 Crie um banco de dados para um serviço de um site de cursos onlines, o nome do banco
 deverá ter o seguinte nome db_cursoDaMinhaVida, onde o sistema trabalhará com as
